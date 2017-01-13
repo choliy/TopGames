@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3a76b8</color>
+    <color name="color_invisible">#00ffffff</color>
+
+    <color name="text_color_black">#181818</color>
+    <color name="text_color_gray">#707070</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_blue">#3a76b8</color>
+
+    <color name="action_color">#ff0000</color>
+    <color name="action_click">#32ff0000</color>
+
+    <color name="adventure_color">#0073ff</color>
+    <color name="adventure_click">#320073ff</color>
+
+    <color name="mmo_color">#2ca801</color>
+    <color name="mmo_click">#322ca801</color>
+
+    <color name="rpg_color">#e4ce00</color>
+    <color name="rpg_click">#32e4ce00</color>
+
+    <color name="simulation_color">#8c00ff</color>
+    <color name="simulation_click">#328c00ff</color>
+
+    <color name="sport_color">#ff9400</color>
+    <color name="sport_click">#32ff9400</color>
+
+    <color name="strategy_color">#7a4b00</color>
+    <color name="strategy_click">#327a4b00</color>
+
+    <color name="shadow_color">#3c3c3c</color>
+    <color name="list_color">#e6e6e6</color>
+</resources>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_vertical"
+    android:orientation="vertical"
+    tools:context="com.choliy.igor.topgames.TopActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:contentDescription="@string/logo_hor"
+        android:src="@drawable/logo_horizontal"/>
+
+    <TextView
+        android:id="@+id/choose_genre_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:text="@string/choose_game_genre"
+        android:textColor="@color/text_color_white"
+        android:textSize="15sp"
+        android:typeface="monospace"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/action_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/action_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/action_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/action_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/adventure_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/adventure_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/adventure_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/adventure_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mmo_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mmo_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/mmo_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/mmo_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rpg_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rpg_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/rpg_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/rpg_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/simulation_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/simulation_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/simulation_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/simulation_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sport_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/sport_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/sport_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/sport_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/strategy_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/strategy_press"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:shadowColor="@color/shadow_color"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="8"
+                android:text="@string/strategy_button"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:background="@color/strategy_color"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

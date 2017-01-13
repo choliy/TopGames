@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Top Games</string>
+
+    <string name="choose_game_genre">Choose game genre:</string>
+    <string name="toast">This simple app is showing top 10 PC games in each genre at the moment</string>
+
+    <string name="action_button">A C T I O N</string>
+    <string name="adventure_button">A D V E N T U R E</string>
+    <string name="mmo_button">M M O</string>
+    <string name="rpg_button">R P G</string>
+    <string name="simulation_button">S I M U L A T I O N</string>
+    <string name="sport_button">S P O R T - R A C I N G</string>
+    <string name="strategy_button">S T R A T E G Y</string>
+
+    <string name="game_name">Name:</string>
+    <string name="game_developer">Developer:</string>
+    <string name="game_release_date">Release date:</string>
+    <string name="game_rating">Rating:</string>
+    <string name="game_website">Website:</string>
+    <string name="game_youtube">Youtube:</string>
+
+    <string name="image_hor">image_horizontal</string>
+    <string name="image_ver">image_vertical</string>
+    <string name="logo_hor">logo_horizontal</string>
+    <string name="logo_ver">logo_vertical</string>
+
+    <string name="gta_5">GTA 5</string>
+    <string name="rockstar_games">Rockstar Games</string>
+    <string name="september_17_2013">September 17, 2013</string>
+    <string name="_9_8">9.8</string>
+    <string name="game_gta_5">gta_5</string>
+</resources>

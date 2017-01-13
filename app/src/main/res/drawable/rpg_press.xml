@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@color/rpg_color" android:state_pressed="true" />
+
+    <!-- focused -->
+    <item android:drawable="@color/rpg_color" android:state_focused="true" />
+
+    <!-- default -->
+    <item android:drawable="@color/text_color_white" />
+
+</selector>
